@@ -28,7 +28,7 @@ public class Principal {
         profesor1.mostrarDatos();
         System.out.println("");
         foro1.mostrarDatos();
-        System.out.println();
+        System.out.println("");
         examen1.mostrarDatos();
         System.out.println("");
         evaluacion1.mostrarDatos();
@@ -38,17 +38,16 @@ public class Principal {
         curso1.mostrarDatos();
         System.out.println("");
         certificado1.mostrarDatos();
-        
         System.out.println("");
 
         System.out.println("***** Plataforma 2 *****");
         System.out.println("");
         plataforma2.mostrarDatos();
-        System.out.println();
+        System.out.println("");
         profesor2.mostrarDatos();
         System.out.println("");
         foro2.mostrarDatos();
-        System.out.println();
+        System.out.println("");
         examen2.mostrarDatos();
         System.out.println("");
         evaluacion2.mostrarDatos();
