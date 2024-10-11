@@ -32,4 +32,11 @@ public class PlataformaEducativa {
     public void setUrl(String url) {
         this.url = url;
     }
+
+    // Método para mostrar los datos
+    public void mostrarDatos(){
+        System.out.println("Información de la plataforma:");
+        System.out.println("Nombre de la plataforma: " + nombrePlataforma);
+        System.out.println("URL: " + url);
+    }   
 }

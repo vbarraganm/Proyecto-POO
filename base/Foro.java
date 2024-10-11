@@ -43,4 +43,12 @@ public class Foro {
     public void setMensaje(String mensaje) {
         this.mensaje = mensaje;
     }
+
+    // Método para mostrar los datos
+    public void mostrarDatos() {
+        System.out.println("Informción del foro: ");
+        System.out.println("Tema del foro: " + tema);
+        System.out.println("Descripción: " + descripcion);
+        System.out.println("Mensaje: " + mensaje);
+    }
 }

@@ -56,4 +56,13 @@ public class Evaluacion {
     public void setPuntuacionMin(double puntuacionMin) {
         this.puntuacionMin = puntuacionMin;
     }
+
+    // Método para mostrar los datos
+    public void mostrarDatos() {
+        System.out.println("Información de evaluación: ");
+        System.out.println("La evaluación es de tipo " + tipo);
+        System.out.println("La fecha de la evaluación es " + fecha);
+        System.out.println("La puntuación máxima es " + puntuacionMax);
+        System.out.println("La puntuación mínima es " + puntuacionMin);
+    }
 }

@@ -55,4 +55,13 @@ public class Estudiante {
     public void setPromedio(double promedio) {
         this.promedio = promedio;
     }
+
+    // Método para mostrar los datos
+    public void mostrarDatos() {
+        System.out.println("Información del estudiante: ");
+        System.out.println("El nombre del estudiante es: " + nombreEstudiante);
+        System.out.println("El código del estudiante es: " + codigo);
+        System.out.println("El correo electrónico del estudiante es: " + correoElectronico);
+        System.out.println("El promedio del estudiante es: " + promedio);
+    }
 }
