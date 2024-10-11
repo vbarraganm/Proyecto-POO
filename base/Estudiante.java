@@ -21,4 +21,38 @@ public class Estudiante {
         this.correoElectronico = correoElectronico;
         this.promedio = promedio;
     }
+
+    // Getters y setters
+
+    public String getNombreEstudiante() {
+        return nombreEstudiante;
+    }
+
+    public void setNombreEstudiante(String nombreEstudiante) {
+        this.nombreEstudiante = nombreEstudiante;
+    }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getCorreoElectronico() {
+        return correoElectronico;
+    }
+
+    public void setCorreoElectronico(String correoElectronico) {
+        this.correoElectronico = correoElectronico;
+    }
+
+    public double getPromedio() {
+        return promedio;
+    }
+
+    public void setPromedio(double promedio) {
+        this.promedio = promedio;
+    }
 }

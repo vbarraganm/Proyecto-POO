@@ -23,4 +23,37 @@ public class Evaluacion {
         this.puntuacionMax = puntuacionMax;
         this.puntuacionMin = puntuacionMin;
     }
+
+    // Getters y setters
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public LocalDateTime getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(LocalDateTime fecha) {
+        this.fecha = fecha;
+    }
+
+    public double getPuntuacionMax() {
+        return puntuacionMax;
+    }
+
+    public void setPuntuacionMax(double puntuacionMax) {
+        this.puntuacionMax = puntuacionMax;
+    }
+
+    public double getPuntuacionMin() {
+        return puntuacionMin;
+    }
+
+    public void setPuntuacionMin(double puntuacionMin) {
+        this.puntuacionMin = puntuacionMin;
+    }
 }
