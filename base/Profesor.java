@@ -18,5 +18,29 @@ public class Profesor {
         this.Edad = Edad;
         this.NombreAsignatura = NombreAsignatura;
     }
+
+    public String getCodigo(){
+        return Codigo;}
+
+    public void setCodigo(String Codigo){
+        this.Codigo = Codigo;}
+
+    public String getNombre(){
+        return Nombre;}
+    
+    public void setNombre(String Nombre){
+        this.Nombre = Nombre;}
+
+    public int getEdad(){
+        return Edad;}
+    
+    public void setEdad(int Edad){
+        this.Edad = Edad;}
+    
+    public String getNombreAsignatura(){
+        return NombreAsignatura;}
+
+    public void setNombreAsignatura(String NombreAsignatura){
+        this.NombreAsignatura = NombreAsignatura;}
     
 }

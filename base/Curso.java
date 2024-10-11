@@ -18,5 +18,29 @@ public class Curso {
         this.NumeroUnidades = NumeroUnidades;
         this.Profesor = Profesor;
     }
+
+    public double getCalificacionFinal(){
+        return CalificacionFinal;}
+
+    public void setCalificacionFinal(double CalificacionFinal){
+        this.CalificacionFinal = CalificacionFinal;}
+
+    public String getNombre(){
+        return Nombre;}
+    
+    public void setNombre(String Nombre){
+        this.Nombre = Nombre;}
+    
+    public int getNumeroUnidades(){
+        return NumeroUnidades;}
+
+    public void setNumeroUnidades(int NumeroUnidades){
+        this.NumeroUnidades = NumeroUnidades;}
+    
+     public String getProfesor(){
+        return Profesor;}
+
+    public void setProfesor(String Profesor){
+        this.Profesor = Profesor;}
     
 }

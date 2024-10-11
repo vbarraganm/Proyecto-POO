@@ -19,4 +19,28 @@ public class Certificado {
         this.TiempoDuracion = TiempoDuracion;
     }
     
+    public String getNombreEstudiante(){
+        return NombreEstudiante;}
+
+    public void setNombreEstudiante(String NombreEstudiante){
+        this.NombreEstudiante = NombreEstudiante;}
+
+    public String getNombrePrograma(){
+        return NombrePrograma;}
+    
+    public void setNombrePrograma(String NombrePrograma){
+        this.NombrePrograma = NombrePrograma;}
+    
+    public String getNombreInstitucion(){
+        return NombreInstitucion;}
+
+    public void setNombreInstitucion(String NombreInstitucion){
+        this.NombreInstitucion = NombreInstitucion;}
+    
+    public int getTiempoDuracion(){
+        return TiempoDuracion;}
+
+    public void setTiempoDuracion(int TiempoDuracion){
+        this.TiempoDuracion = TiempoDuracion;}
+
 }

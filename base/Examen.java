@@ -26,5 +26,41 @@ public class Examen {
         this.HoraCierre = HoraCierre;
         this.TiempoLimite = TiempoLimite;
     }
+
+    public String getematica(){
+        return Tematica;}
+
+    public void setematica(String Tematica){
+        this.Tematica = Tematica;}
+
+    public int getNumeroIntentos(){
+        return NumeroIntentos;}
+    
+    public void setNumeroIntentos(int NumeroIntentos){
+        this.NumeroIntentos = NumeroIntentos;}
+
+    public double getCalificacion(){
+        return Calificacion;}
+        
+    public void setCalificacion(double Calificacion){
+        this.Calificacion = Calificacion;}
+
+    public LocalDateTime getHoraInicio(){
+        return HoraInicio;}
+            
+    public void setHoraInicio(LocalDateTime HoraInicio){
+        this.HoraInicio = HoraInicio;}
+
+    public LocalDateTime getHoraCierre(){
+        return HoraCierre;}
+                
+    public void setHoraCierre(LocalDateTime HoraCierre){
+        this.HoraCierre = HoraCierre;}
+
+    public int getTiempoLimite(){
+        return TiempoLimite;}
+                    
+    public void setTiempoLimite(int  TiempoLimite){
+        this.TiempoLimite = TiempoLimite;}
     
 }
