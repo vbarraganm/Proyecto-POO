@@ -42,5 +42,13 @@ public class Curso {
 
     public void setProfesor(String Profesor){
         this.Profesor = Profesor;}
+
+    public void mostrarDatos(){
+        System.out.println("Informacion del curso");
+        System.out.println("La nota final del estudiante del curso es de: " + CalificacionFinal);
+        System.out.println("El nombre del curso es: " + Nombre);
+        System.out.println("El numero de unidades del curso es de: " + NumeroUnidades);
+        System.out.println("El nombre del profesor es: " + Profesor);
+    }
     
 }

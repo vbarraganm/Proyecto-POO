@@ -63,4 +63,14 @@ public class Examen {
     public void setTiempoLimite(int  TiempoLimite){
         this.TiempoLimite = TiempoLimite;}
     
+    public void mostrarDatos(){
+        System.out.println("Informacion del Examen");
+        System.out.println("La tematica del examen va hacer: " + Tematica);
+        System.out.println("Los intentos permitidos para realizar el examen son: " + NumeroIntentos);
+        System.out.println("La calificacion del examen es: " + Calificacion);
+        System.out.println("La hora que inicia el examen es a las: " + HoraInicio);
+        System.out.println("La hora que cierra el examen es a las: " + HoraCierre);
+        System.out.println("El tiempo limite para realizar el examen es de (Minutos): " + TiempoLimite);
+    }
+
 }

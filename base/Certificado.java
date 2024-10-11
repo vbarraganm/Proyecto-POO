@@ -43,4 +43,12 @@ public class Certificado {
     public void setTiempoDuracion(int TiempoDuracion){
         this.TiempoDuracion = TiempoDuracion;}
 
+    public void mostrarDatos(){
+        System.out.println("Informacion del certificado");
+        System.out.println("El nombre del estudiante es: " + NombreEstudiante);
+        System.out.println("El nombre del programa es: " + NombrePrograma);
+        System.out.println("El nombre de la institucion academica es: " + NombreInstitucion);
+        System.out.println("El tiempo de duracion del curso (Semestre): " + TiempoDuracion);
+    }
+
 }

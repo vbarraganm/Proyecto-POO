@@ -43,4 +43,11 @@ public class Profesor {
     public void setNombreAsignatura(String NombreAsignatura){
         this.NombreAsignatura = NombreAsignatura;}
     
+    public void mostrarDatos(){
+        System.out.println("Informacion del profesor");
+        System.out.println("El codigo del profesor es: " + Codigo);
+        System.out.println("El nombre del profesor es: " + Nombre);
+        System.out.println("La edad del profesor es de: " + Edad);
+        System.out.println("El Nombre de la asignatura que dicta el profesor es: " + NombreAsignatura);
+    }
 }
