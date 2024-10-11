@@ -14,7 +14,7 @@ public class Examen {
         this.NumeroIntentos = 0;
         this.Calificacion = 0;
         this.HoraInicio = LocalDateTime.now();
-        this.HoraInicio = LocalDateTime.now();
+        this.HoraCierre = LocalDateTime.now();
         this.TiempoLimite = 0;
     }
     
