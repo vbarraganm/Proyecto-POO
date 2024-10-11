@@ -18,6 +18,6 @@ En este proyecto se realizó el diseño e implementación en Java del ejercicio 
 git clone <https://github.com/vbarraganm/Proyecto-POO>
 ```
 
-2. Se sugiere abrir desde Visual Studio Code
+2. Se sugiere ejecturar desde Visual Studio Code
 
 3. Ejecutar el archivo principal (Principal.java)
